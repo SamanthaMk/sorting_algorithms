@@ -40,8 +40,7 @@ typedef struct card_s
  */
 typedef struct deck_node_s
 {
-	const card_t *card;
-	struct deck_node_s *prev;
+	const card_t *card
 	struct deck_node_s *next;
 } deck_node_t;
 
